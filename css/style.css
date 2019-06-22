@@ -1,0 +1,414 @@
+
+/*
+====================================================
+
+* 	[Master Stylesheet]
+	
+	Theme Name :  EMMA
+	Version    :  0.1
+	Author     : NIMBBLY
+	Author URI :  NIMBBLY
+
+====================================================
+
+	TOC
+	
+	1. COMMON STYLES
+	2. NAVIGATION
+	3. HEADER
+	4. PORTFOLIO SECTION
+	5. ABOUT SECTION
+	6. EXPERIENCE SECTION
+	7. EDUCATION SECTION
+	8. SUMMARY SECTION
+	9. FOOTER
+
+====================================================
+
+
+/* ---------------------------------
+1. COMMON STYLES
+--------------------------------- */
+
+@media only screen and (min-width: 991px) {
+	.navbar-brand img {
+	width: 5vw;
+}
+	.black {
+	background: #000;
+	height: 70vw;
+	padding-right: 0;
+    padding-left: 0;
+    position: relative;
+    z-index: -1;
+    border-bottom-right-radius: 50px;
+}
+
+header {
+	height: 30vw;
+	width: 100%;
+	background-image: url("../img/08.jpg");
+	background-repeat: no-repeat;
+  	background-position: bottom;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	border-bottom-right-radius: 50px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+	.black {
+		background: #000;
+		height: 125vw;
+		padding-right: 0;
+    	padding-left: 0;
+    	position: relative;
+    	z-index: -1;
+    	border-bottom-right-radius: 50px;
+}
+	header {
+		margin-top: -125vw;
+		height: 70vw;
+		width: 100%;
+		background-image: url("../img/08.jpg");
+		background-repeat: no-repeat;
+  		background-position: bottom;
+  		background-attachment: fixed;
+  		background-size: cover;
+  		border-bottom-right-radius: 50px;
+	}
+	.navbar-brand img {
+	width: 8vw;
+}
+	.profile2 {
+		margin-top: -10vw;
+	}
+	.profile2 img {
+		width: 20vw;
+		border-radius: 50%;
+	}
+	.profile2 article {
+		margin-top: -6vw;
+		margin-bottom: 15vw;
+	}
+	.profile2 i {
+		color: #E7B115;
+	}
+	.profile2 a {
+		color: #E7B115;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.black {
+		background: #000;
+		height: 80vw;
+		padding-right: 0;
+    	padding-left: 0;
+    	position: relative;
+    	z-index: -1;
+    	border-bottom-right-radius: 50px;
+}
+	header {
+		margin-top: -80vw;
+		height: 50vw;
+		width: 100%;
+		background-image: url("../img/08.jpg");
+		background-repeat: no-repeat;
+  		background-position: bottom;
+  		background-attachment: fixed;
+  		background-size: cover;
+  		border-bottom-right-radius: 50px;
+	}
+}
+
+@media only screen and (max-width: 468px) {
+	.black {
+		background: #000;
+		height: 125vw;
+		padding-right: 0;
+    	padding-left: 0;
+    	position: relative;
+    	z-index: -1;
+    	border-bottom-right-radius: 50px;
+}
+	header {
+		margin-top: -125vw;
+		height: 70vw;
+		width: 100%;
+		background-image: url("../img/08.jpg");
+		background-repeat: no-repeat;
+  		background-position: bottom;
+  		background-attachment: fixed;
+  		background-size: cover;
+  		border-bottom-right-radius: 50px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.black {
+		background: #000;
+		height: 130vw;
+		padding-right: 0;
+    	padding-left: 0;
+    	position: relative;
+    	z-index: -1;
+    	border-bottom-right-radius: 50px;
+}
+	header {
+		margin-top: -130vw;
+		height: 70vw;
+		width: 100%;
+		background-image: url("../img/08.jpg");
+		background-repeat: no-repeat;
+  		background-position: bottom;
+  		background-attachment: fixed;
+  		background-size: cover;
+  		border-bottom-right-radius: 50px;
+	}
+}
+
+
+
+body {
+}
+
+.navbar {
+	color: #fff;
+}
+
+.navbar .btn-default {
+	font-size: 11px;
+	background-color: #fff;
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+
+.navbar p {
+	line-height: 0;
+}
+
+.navbar article {
+	margin-left: 20px;
+	margin-top: -12px;
+}
+
+.navbar-brand {
+	margin-left: 10%;
+}
+
+.profile {
+	margin-top: -150px;
+}
+
+.profile .btn {
+	border-radius: 25px;
+	background:#28023D;
+	border: #28023D;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.profile .wcv {
+	border-radius: 25px;
+	background:#fff;
+	border: #fff;
+	color: #28023D;
+	font-weight: bold;
+	font-size: 14px;
+	float: right;
+}
+
+.profile .wcv i {
+	color: #28023D;
+	font-size: 15px;
+}
+
+.profile .btn i {
+	font-size: 15px;
+}
+
+.profile span {
+	font-size: 1rem;
+	color: #fff;
+}
+
+.profile .card {
+	position: relative;
+	border: 0;
+	width: 100% !important;
+	 box-shadow: 1px 1px 8px 2px rgba(0,0,0,.1);
+}
+
+.profile img {
+	position: relative;
+}
+
+.profile h2 {
+	color: #fff;
+	margin-top: 50px;
+}
+
+.profile .fa {
+	font-size: 18px;
+	margin: 0 5px;
+	color: #fff;
+}
+
+.profile .lines {
+	height: 2px;
+	background: #95918c;
+	opacity: .3;
+	margin: 20px 0;
+	width: 100%;
+}
+
+.profile .links i {
+	font-size: 18px;
+	color: #28023D;
+}
+
+.profile .card .line-icon i {
+	color: #28023D;
+}
+
+.profile .about p {
+	font-size: 18px;
+}
+
+.about h2 {
+	color: #000;
+	margin-top: 5vw;
+}
+
+#trophy {
+	margin: 50px 0;
+}
+
+#trophy i {
+	font-size: 4vw;
+	color: #E7B115;
+}
+
+#portfolio {
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+
+#portfolio .card {
+	margin-top: 40px;
+}
+
+.dash {
+	width: 50px;
+	height: 10px;
+	background-color: #E7B115;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+
+#work-experience {
+	background-color: #28023D;
+	color: #fff;
+	padding: 100px 0;
+}
+
+#work-experience h6 {
+	color: #E7B115;
+}
+
+#work-experience p {
+	padding: 20px 0;
+}
+
+#work-experience p, #work-experience li {
+	font-size: 14px;
+}
+
+#education {
+	padding: 100px 0;
+	background-color: #fff;
+}
+
+#education li {
+	padding-bottom: 50px;
+	border-left: 1px solid #E7B115;
+}
+
+#education .fa {
+	color: #E7B115;
+	margin-left: -7px;
+	border-radius: 100%;
+}
+
+#education article {
+	margin-left: 50px;
+	margin-top: -30px;
+}
+
+#education .col-lg-8 h6 {
+	color: #E7B115;
+}
+
+#summary {
+	color: #fff;
+	background-image: url("../img/08.jpg");
+	background-repeat: no-repeat;
+  	background-position: bottom;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+#summary .boxx {
+	background-color: rgba(0,0,0,0.4);
+	padding: 50px 0;
+}
+
+#skills {
+	opacity: .3;
+}
+
+#skills img {
+	width: 8vw;
+}
+
+#skills .node {
+	width: 6vw;
+}
+
+#skills .ejs {
+	width: 10vw;
+}
+
+#skills .vbnet {
+	width: 6vw;
+}
+
+#skills .travis {
+	width: 12vw;
+	margin-left: 2vw;
+}
+
+#skills .pman {
+	margin-left: 2vw;
+	width: 5vw;
+}
+
+#skills .hero {
+	width: 5vw;
+	margin-left: 2vw;
+}
+
+#skills .git {
+	width: 18vw;
+	margin-left: -4vw;
+}
+
+footer {
+	background-color: #fff;
+	padding: 20px 0;
+}
